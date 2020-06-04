@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { updateSmurf, toggleEditing } from "./../actions/actions";
+import { updateSmurf, toggleEditing } from "./../Actions/actions";
 import { connect } from "react-redux";
 
 const Card = styled.form`

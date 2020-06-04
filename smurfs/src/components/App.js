@@ -3,10 +3,12 @@ import "./App.css";
 import Header from './Header';
 import SmurfFamily from './SmurfFamily';
 
-export const App = () => {
+const App = () => {
   return (
     <div className='App'>
       <Header />
       <SmurfFamily />
     </div>
   );
+};
+export default App;

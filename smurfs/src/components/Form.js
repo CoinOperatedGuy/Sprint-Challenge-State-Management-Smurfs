@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from "react-redux";
-import { addSmurf } from './../actions/actions';
+import { addSmurf } from './../Actions/actions';
 import styled from 'styled-components';
 
 const Card = styled.form`

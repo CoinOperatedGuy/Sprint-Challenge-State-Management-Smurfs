@@ -8,7 +8,7 @@ import {
     UPDATE_SMURF_START,
     UPDATE_SMURF_SUCCESS,
     UPDATE_SMURF_FAIL
-  } from "./src/constants/ActionTypes.js";
+  } from "../constants/ActionTypes"
 
 
   const initialState = {

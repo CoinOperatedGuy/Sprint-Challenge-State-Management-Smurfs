@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Smurf from './Smurf';
 import Form from './Form';
 import { connect } from 'react-redux';
-import { getSmurfs } from './../actions/actions';
+import { getSmurfs } from './../Actions/actions';
 import styled from 'styled-components';
 
 const Cards = styled.div`
